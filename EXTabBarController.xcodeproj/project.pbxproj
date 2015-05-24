@@ -10,10 +10,12 @@
 		18AA15BA1B10905000B14227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15B91B10905000B14227 /* main.m */; };
 		18AA15BD1B10905000B14227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15BC1B10905000B14227 /* AppDelegate.m */; };
 		18AA15C01B10905000B14227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15BF1B10905000B14227 /* ViewController.m */; };
-		18AA15C31B10905000B14227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AA15C11B10905000B14227 /* Main.storyboard */; };
 		18AA15C51B10905000B14227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AA15C41B10905000B14227 /* Images.xcassets */; };
 		18AA15C81B10905000B14227 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AA15C61B10905000B14227 /* LaunchScreen.xib */; };
 		18AA15D41B10905000B14227 /* EXTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15D31B10905000B14227 /* EXTabBarControllerTests.m */; };
+		18AA15E01B10907800B14227 /* EXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15DF1B10907800B14227 /* EXTabBarController.m */; };
+		18AA15E31B10A1A500B14227 /* EXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15E21B10A1A500B14227 /* EXTabBar.m */; };
+		18AA15E61B10A1E600B14227 /* EXTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA15E51B10A1E600B14227 /* EXTabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,17 @@
 		18AA15BC1B10905000B14227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18AA15BE1B10905000B14227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18AA15BF1B10905000B14227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18AA15C21B10905000B14227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AA15C41B10905000B14227 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18AA15C71B10905000B14227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18AA15CD1B10905000B14227 /* EXTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EXTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AA15D21B10905000B14227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AA15D31B10905000B14227 /* EXTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXTabBarControllerTests.m; sourceTree = "<group>"; };
+		18AA15DE1B10907800B14227 /* EXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTabBarController.h; sourceTree = "<group>"; };
+		18AA15DF1B10907800B14227 /* EXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTabBarController.m; sourceTree = "<group>"; };
+		18AA15E11B10A1A500B14227 /* EXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTabBar.h; sourceTree = "<group>"; };
+		18AA15E21B10A1A500B14227 /* EXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTabBar.m; sourceTree = "<group>"; };
+		18AA15E41B10A1E600B14227 /* EXTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTabBarItem.h; sourceTree = "<group>"; };
+		18AA15E51B10A1E600B14227 /* EXTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTabBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +88,11 @@
 		18AA15B61B10905000B14227 /* EXTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				18AA15DD1B10905D00B14227 /* Classes */,
 				18AA15BB1B10905000B14227 /* AppDelegate.h */,
 				18AA15BC1B10905000B14227 /* AppDelegate.m */,
 				18AA15BE1B10905000B14227 /* ViewController.h */,
 				18AA15BF1B10905000B14227 /* ViewController.m */,
-				18AA15C11B10905000B14227 /* Main.storyboard */,
 				18AA15C41B10905000B14227 /* Images.xcassets */,
 				18AA15C61B10905000B14227 /* LaunchScreen.xib */,
 				18AA15B71B10905000B14227 /* Supporting Files */,
@@ -118,6 +125,19 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		18AA15DD1B10905D00B14227 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AA15DE1B10907800B14227 /* EXTabBarController.h */,
+				18AA15DF1B10907800B14227 /* EXTabBarController.m */,
+				18AA15E11B10A1A500B14227 /* EXTabBar.h */,
+				18AA15E21B10A1A500B14227 /* EXTabBar.m */,
+				18AA15E41B10A1E600B14227 /* EXTabBarItem.h */,
+				18AA15E51B10A1E600B14227 /* EXTabBarItem.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -199,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AA15C31B10905000B14227 /* Main.storyboard in Resources */,
 				18AA15C81B10905000B14227 /* LaunchScreen.xib in Resources */,
 				18AA15C51B10905000B14227 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AA15E31B10A1A500B14227 /* EXTabBar.m in Sources */,
+				18AA15E61B10A1E600B14227 /* EXTabBarItem.m in Sources */,
+				18AA15E01B10907800B14227 /* EXTabBarController.m in Sources */,
 				18AA15C01B10905000B14227 /* ViewController.m in Sources */,
 				18AA15BD1B10905000B14227 /* AppDelegate.m in Sources */,
 				18AA15BA1B10905000B14227 /* main.m in Sources */,
@@ -244,14 +266,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18AA15C11B10905000B14227 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18AA15C21B10905000B14227 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18AA15C61B10905000B14227 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +430,7 @@
 				18AA15D91B10905000B14227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AA15DA1B10905000B14227 /* Build configuration list for PBXNativeTarget "EXTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				18AA15DC1B10905000B14227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

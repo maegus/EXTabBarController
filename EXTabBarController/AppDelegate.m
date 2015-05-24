@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "EXTabBarController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    EXTabBarController *tabBarController = [[EXTabBarController alloc] init];
+    ViewController *vc1 = [[ViewController alloc] init];
+    vc1.view.backgroundColor = [UIColor whiteColor];
+    ViewController *vc2 = [[ViewController alloc] init];
+    vc2.view.backgroundColor = [UIColor yellowColor];
+    ViewController *vc3 = [[ViewController alloc] init];
+    vc3.view.backgroundColor = [UIColor redColor];
+    ViewController *vc4 = [[ViewController alloc] init];
+    vc4.view.backgroundColor = [UIColor redColor];
+
+    tabBarController.viewControllers = @[vc1, vc2, vc3, vc4];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
