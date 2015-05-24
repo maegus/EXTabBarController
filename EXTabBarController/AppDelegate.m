@@ -30,6 +30,15 @@
     vc4.view.backgroundColor = [UIColor redColor];
 
     tabBarController.viewControllers = @[vc1, vc2, vc3, vc4];
+    tabBarController.ex_tabBar.unselectedBackgroundImages = @[[UIImage imageNamed:@"main"],
+                                                              [UIImage imageNamed:@"notification"],
+                                                              [UIImage imageNamed:@"profile"],
+                                                              [UIImage imageNamed:@"add"]];
+    tabBarController.ex_tabBar.selectedBackgroundImages = @[[UIImage imageNamed:@"mainSelected"],
+                                                            [UIImage imageNamed:@"notificationSelected"],
+                                                            [UIImage imageNamed:@"profileSelected"],
+                                                            [UIImage imageNamed:@"add"]];
+    [tabBarController.ex_tabBar setSelectedIndex:0];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];

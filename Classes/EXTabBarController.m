@@ -7,7 +7,6 @@
 //
 
 #import "EXTabBarController.h"
-#import "EXTabBar.h"
 #import <objc/runtime.h>
 
 @interface EXTabBarController ()
@@ -54,15 +53,6 @@
         [self.ex_tabBar removeFromSuperview];
     } else {
         [self.view addSubview:self.ex_tabBar];
-        self.ex_tabBar.unselectedBackgroundImages = @[[UIImage imageNamed:@"main"],
-                                                      [UIImage imageNamed:@"notification"],
-                                                      [UIImage imageNamed:@"profile"],
-                                                      [UIImage imageNamed:@"add"]];
-        self.ex_tabBar.selectedBackgroundImages = @[[UIImage imageNamed:@"mainSelected"],
-                                                    [UIImage imageNamed:@"notificationSelected"],
-                                                    [UIImage imageNamed:@"profileSelected"],
-                                                    [UIImage imageNamed:@"add"]];
-        [self.ex_tabBar setSelectedIndex:0];
     }
 }
 

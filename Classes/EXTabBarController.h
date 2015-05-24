@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class EXTabBar;
+#import "EXTabBar.h"
 
 @interface EXTabBarController : UITabBarController
 
