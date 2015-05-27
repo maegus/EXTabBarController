@@ -131,10 +131,10 @@
 			children = (
 				1831234D1B1203950008FCE7 /* EXTabBar.h */,
 				1831234E1B1203950008FCE7 /* EXTabBar.m */,
-				1831234F1B1203950008FCE7 /* EXTabBarController.h */,
-				183123501B1203950008FCE7 /* EXTabBarController.m */,
 				183123511B1203950008FCE7 /* EXTabBarItem.h */,
 				183123521B1203950008FCE7 /* EXTabBarItem.m */,
+				1831234F1B1203950008FCE7 /* EXTabBarController.h */,
+				183123501B1203950008FCE7 /* EXTabBarController.m */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
